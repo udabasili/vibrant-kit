@@ -17,7 +17,8 @@
     "storybook": "start-storybook -p 6006",
     "storybook:export": "build-storybook",
     "generate": "node ./util/create-component",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "chromatic": "npx chromatic --project-token=53d8f33ad92f"
   },
   "repository": {
     "type": "git",
@@ -31,7 +32,9 @@
     "Css",
     "Storybook"
   ],
-  "author": "Udendu Abasili",
+  "author": {
+    "name": "Udendu Abasili"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/udabasili/vibrant-kit/issues"
@@ -62,6 +65,7 @@
     "babel-jest": "^29.3.1",
     "babel-loader": "^8.2.2",
     "babel-preset-react-app": "^10.0.0",
+    "chromatic": "^6.14.0",
     "eslint": "^8.31.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-config-standard-with-typescript": "^26.0.0",
@@ -96,5 +100,7 @@
     "react-hook-form": "^7.41.5",
     "react-icons": "^4.7.1",
     "zod": "^3.20.2"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "vibrant-kit@1.2.5"
 }

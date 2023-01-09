@@ -107,6 +107,7 @@ import 'vibrant-kit/build/index.css';
 
 ### Components
 
+Visit the [StoryBook website](https://63bc1ac2d4f79f8d5c1862cc-llwwhoeyho.chromatic.com) to see the list of components the project has
 Usage of components for the library is achieved by:
 
 ```js

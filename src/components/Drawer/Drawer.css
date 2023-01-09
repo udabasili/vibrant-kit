@@ -1,0 +1,141 @@
+.dialog-container {
+	position: fixed;
+	z-index: 50;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	overflow-y: auto;
+}
+
+.flex {
+	display: flex;
+}
+
+.grow {
+	flex-grow: 1;
+}
+
+.self-center {
+	align-self: center;
+}
+
+.mt-10 {
+	margin-top: 2.5rem;
+}
+
+.dialog-inner-container {
+	display: flex;
+	height: 100vh;
+	width: 100vw;
+}
+
+@media (min-width: 640px) {
+	.dialog-inner-container {
+		display: flex;
+		height: 100vh;
+		width: 100vw;
+	}
+}
+
+@media (min-width: 768px) {
+	.dialog-inner-container {
+		display: flex;
+		height: 100vh;
+		width: 100vw;
+	}
+}
+
+.dialog-overlay {
+	position: fixed;
+	z-index: 40;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	background-color: black;
+	opacity: 0.6;
+}
+
+.dialog-content {
+	display: flex;
+	flex-direction: column;
+	z-index: 50;
+	justify-content: space-between;
+	background-color: #ffff;
+	width: 100%;
+	max-width: 24rem;
+	overflow: hidden;
+	vertical-align: middle;
+	box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+	padding: 1.5rem;
+}
+
+.dialog-content.sm {
+	max-width: 28rem;
+}
+
+.dialog-content.md {
+	max-width: 36rem;
+}
+
+.dialog-content.lg {
+	max-width: 48rem;
+}
+
+.dialog-content.xl {
+	max-width: 80rem;
+}
+
+.dialog-content.full {
+	max-width: 100%;
+}
+
+.close-button-container {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 1rem;
+	cursor: pointer;
+}
+
+.close-button {
+	height: 2.5rem;
+	width: 2.5rem;
+}
+
+@media (max-width: 600px) {
+	.close-button {
+		color: rgb(185 28 28 / 1);
+	}
+}
+
+@media (max-width: 900px) {
+	.close-button {
+		color: #ffffff;
+	}
+}
+
+.close-button-container button .sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border-width: 0;
+}
+
+.text-content {
+	display: flex;
+	flex-grow: 1;
+	flex-direction: column;
+}
+
+.dialog-title {
+	font-weight: bolder;
+	font-size: 2rem;
+	line-height: 2rem;
+}

@@ -1,6 +1,6 @@
 {
   "name": "vibrant-kit",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "main": "build/index.js",
   "module": "build/index.esm.js",
   "files": [
@@ -16,13 +16,9 @@
     "test:watch": "jest --watch",
     "storybook": "start-storybook -p 6006",
     "storybook:export": "build-storybook",
-    "generate": "node ./util/create-component",
     "prepublishOnly": "npm run build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/udabasili/vibrant-kit.git"
-  },
+  "repository": "udabasili/vibrant-kit.git",
   "keywords": [
     "React",
     "Rollup",
